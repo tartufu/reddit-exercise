@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.Image-section img {
+	max-height: 245px;
+	max-width: 256px;
+}
+
+.Image-section {
+	text-align: center;
+}
+
+.Post {
+	padding: 16px;
+	border: 1px solid gray;
+}
+
+.Subreddit-title {
+	text-align: center;
+}
+
+.Post-actions {
+	display: flex;
+	justify-content: space-between;
+}
+
+.Votes-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
